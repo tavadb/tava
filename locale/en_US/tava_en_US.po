@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tava 1.0\n"
+"POT-Creation-Date: 2014-07-18 16:01+PYT\n"
+"Last-Translator: Arsenio Ferreira <arse.ferreira@gmail.com>\n"
+"Language: es_PY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+# ------------------------------- TavaFrame -----------------------------------
+msgid "TAVA_FRAME_TREE_PANE"
+msgstr "Project Explorer"
+
+msgid "TAVA_FRAME_LOG_PANE"
+msgstr "Log"
+
+msgid "EXIT_APPLICATION"
+msgstr "Want to exit the application?"
+
+msgid "EXIT_APPLICATION_MS"
+msgstr "Confirm exit"
+
+msgid "PROJECT_EXPLORER"
+msgstr "Project Explorer"
+
+msgid "RESULT_NOT_DELETE"
+msgstr "The file can not be removed, is being used in any view!"
+
+msgid "RESULT_NOT_DELETE_HEADER"
+msgstr "Delete Files Result!"
+
+msgid "RESULT_CHANGE_NAME_T"
+msgstr "Objective Names"
+
+msgid "RESULT_CHANGE_NAME_ST"
+msgstr "Keep names separated by comma ','"
+
+msgid "EXIT_TAVA"
+msgstr "Exit TAVA?"
+
+msgid "EXIT_TAVA_HEADER"
+msgstr "Question"
+
+msgid "STATUS_WELCOME_MSG"
+msgstr "Welcome to TAVA!"
+
+# ------------------------------- TavaMenuBar ---------------------------------
+msgid "MENU_BAR_FILE"
+msgstr "File"
+
+msgid "MENU_BAR_NEW_PROJECT"
+msgstr "New Project"
+
+msgid "MENU_BAR_OPEN_PROJECT"
+msgstr "Open Project"
+
+msgid "MENU_BAR_PROPERTIES"
+msgstr "Properties"
+
+msgid "MENU_BAR_EXIT"
+msgstr "Exit"
+
+msgid "MENU_BAR_LANGUAGE"
+msgstr "Language"
+
+msgid "MENU_BAR_EN_US_LANGUAGE"
+msgstr "English"
+
+msgid "MENU_BAR_ES_PY_LANGUAGE"
+msgstr "Spanish"
+
+msgid "MENU_BAR_HELP"
+msgstr "Help"
+
+msgid "MENU_BAR_ABOUT"
+msgstr "About TAVA"
+
+msgid "MENU_ABOUT_DESCRIPTION"
+msgstr "Tava is a tool that provides visual analysis for results multiobjective optimization problems (MOPs) using graphics and clustering"
+
+msgid "MENU_ABOUT_LICENSE"
+msgstr "Tava is free software; you can redistribute it and / or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License or (at your option) any later version."
+
+# ------------------------------- TavaToolBar ---------------------------------
+msgid "NEW_PROJECT"
+msgstr "New Project"
+
+msgid "OPEN_PROJECT"
+msgstr "Open Project"
+
+msgid "CLOSE_PROJECT"
+msgstr "Close Project"
+
+msgid "DELETE_PROJECT"
+msgstr "Delete Project"
+
+msgid "HIDE_PROJECT"
+msgstr "Hide Project"
+
+msgid "UNHIDE_PROJECT"
+msgstr "Unhide Project"
+
+msgid "EXIT"
+msgstr "Salir"
+
+# ------------------------------- vproject -> NewProject ----------------------------------
+msgid "NEW_PROJECT_TITLE"
+msgstr "Tava Project"
+
+msgid "NEW_PROJECT_NAME"
+msgstr "Project Name"
+
+msgid "NEW_PROJECT_CANCEL"
+msgstr "Cancel"
+
+msgid "NEW_PROJECT_OK"
+msgstr "Create"
+
+msgid "NEW_PROJECT_ENTER_NAME"
+msgstr "Enter a name Project."
+
+msgid "NEW_PRO_BLANK_SPACE"
+msgstr "Name Error, only 'blanks' is not allowed as name."
+
+msgid "NEW_PRO_CONTAINS_POINT"
+msgstr "Name Error, '.' It is not permitted as a start character name"
+
+msgid "NEW_PRO_CONTAINS_SLASH"
+msgstr "Name Error, '/' Character is not allowed for names."
+
+msgid "NEW_PRO_MAXIMUM_LENGTH"
+msgstr "Name length error. 100 characters maximum length allowed."
+
+msgid "NEW_PRO_EXISTING_NAME"
+msgstr "Name error repeated, there is another project with the same name."
+
+msgid "NEW_PRO_HIDDEN_EXISTING_NAME"
+msgstr "Name error repeated, there is another hidden project with the same name."
+
+msgid "SEPARATOR"
+msgstr "Separator"
+
+msgid "FILES_RESULTS"
+msgstr "Files results"
+
+msgid "COMMA"
+msgstr "(comma)"
+
+msgid "SEMICOLON"
+msgstr "(semicolon)"
+
+msgid "BLANK_SPACE"
+msgstr "(blank space)"
+
+msgid "HYPHEN"
+msgstr "(hyphen)"
+
+msgid "UNDERSCORE"
+msgstr "(underscore)"
+
+msgid "ERROR_REPORTING"
+msgstr "Error Reporting"
+
+msgid "FILE"
+msgstr "File"
+
+msgid "ERROR_MESSAGE"
+msgstr "Error message"
+
+# ------------------------------- AddFileDialog -------------------------------
+msgid "FILE_STATIC_LABEL"
+msgstr "Add files to the Project"
+
+msgid "FILE_BUTTON_BROWSER"
+msgstr "Browser"
+
+msgid "FILE_LABEL_COL_NAME"
+msgstr "Name"
+
+msgid "FILE__COL_DIRECTORY"
+msgstr "Directory"
+
+msgid "FILE_RADIO_BOX_TITLE"
+msgstr "File Format"
+
+msgid "ADD_FILE_DIALOG_TITLE"
+msgstr "Select files"
+
+msgid "ADD_FILE_RESULT"
+msgstr "Add"
+
+msgid "ADD_FILE_RESULT_HEADER"
+msgstr "Add Files Results"
+
+# ------------------------------- ProgressBar - Result -------------------------------
+msgid "MSG_PRO_HEADER_TITLE"
+msgstr "Persisting Data"
+
+msgid "MSG_PRO_FORMATER"
+msgstr "File formatting"
+
+msgid "MSG_PRO_PARSER"
+msgstr "Parsing File"
+
+msgid "MSG_PRO_SAVE"
+msgstr "Saving File"
+
+msgid "MSG_PRO_DATA_SAVE"
+msgstr "persisted data"
+
+# -------------------------------- wrapper->TavaTree -----------------------------------
+msgid "PACKAGE_FILES_NAME"
+msgstr "Files"
+
+msgid "PACKAGE_VIEWS_NAME"
+msgstr "Views"
+
+msgid "DELETE_PROJECT_BOX"
+msgstr "Are you sure you want to delete this project?"
+
+msgid "DELETE_PROJECT_TITLE"
+msgstr "Delete Project"
+
+msgid "HIDE_PROJECT_BOX"
+msgstr "Are you sure you want to hide this project?"
+
+msgid "HIDE_PROJECT_TITLE"
+msgstr "Hide Project"
+
+msgid "MODULE_GRAPHIC_NAME"
+msgstr "Module Graphic"
+
+msgid "MODULE_METRIC_NAME"
+msgstr "Module Metric"
+
+# ------------------------------- vmenu-> MenuVista ------------------------------------
+msgid "MENU_VIEW_CREATE"
+msgstr "Create New View"
+
+msgid "MENU_VIEW_OPEN"
+msgstr "Open"
+
+msgid "MENU_VIEW_DELETE"
+msgstr "Delete"
+
+# -------------------------------- vview --------------------------------------
+msgid "VIEW_TITLE_WIZARD"
+msgstr "Tava View"
+
+msgid "VIEW_NEW_TITLE"
+msgstr "New View in"
+
+msgid "VIEW_ALERT_NAME"
+msgstr "Insert name for the View"
+
+msgid "VIEW_NAME"
+msgstr "Name"
+
+msgid "VIEW_ALERT_RESULTS"
+msgstr "Select the results for Vista"
+
+msgid "VIEW_OPTION_RESULTS"
+msgstr "Results Available"
+
+msgid "VIEW_RESULTS_SELECTED"
+msgstr "Selected Results"
+
+msgid "VIEW_ITE_CHECK_ALL"
+msgstr "Check All"
+
+msgid "VIEW_ITE_UNCHECK_ALL"
+msgstr "Uncheck All"
+
+msgid "VIEW_ITERATION_F_R"
+msgstr "Iterations"
+
+msgid "VIEW_ITERATION_OPTION"
+msgstr "Select"
+
+# -------------------------------- vmenu --------------------------------------
+msgid "ADD_FILE_RESOULT"
+msgstr "Add File Result"
+
+msgid "DELETE_FILE_RESOULT"
+msgstr "Delete"
+
+msgid "CHANGE_FILE_NAME_RESOULT"
+msgstr "Rename objectives"
+
+# ------------------------------- vproject -> UnhideProjec ----------------------------------
+
+msgid "UNHIDE_TITLE"
+msgstr "Hidden Projects"
+
+msgid "UNHIDE_DESCRIPTION"
+msgstr "Check the boxes of proeyctos to be restored"
+
+msgid "UNHIDE_DESCRIPTION_EMPTY"
+msgstr "No hidden projects"
+
+msgid "UNHIDE_COLUMN_NAME"
+msgstr "Name"
+
+msgid "UNHIDE_COLUMN_CREATION"
+msgstr "Date of creation"
+
+msgid "UNHIDE_COLUMN_HIDDEN"
+msgstr "Date of hidden"
+
+msgid "UNHIDE_BOX_LABEL"
+msgstr "Quick Check"
+
+msgid "UNHIDE_SELECT_ALL"
+msgstr "Select All"
+
+msgid "UNHIDE_DESELECT_ALL"
+msgstr "Deselect All"
+
+msgid "UNHIDE_RESTORE"
+msgstr "Restore"
+
+msgid "UNHIDE_CANCEL"
+msgstr "Cancel"
+
+# ------------------------------- vcontrol ----------------------------------
+msgid "NAME"
+msgstr "Name"
+
+msgid "SELECT_ALL"
+msgstr "Select All"
+
+msgid "SELECT_COLOR_DATA"
+msgstr "Color data"
+
+msgid "CHECK_HEADER_CLUSTER"
+msgstr "Header"
+
+msgid "BLOCK"
+msgstr "Block"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "CANCEL"
+msgstr "Cancel"
+
+msgid "NORMALIZED_FULL"
+msgstr "Full Normalization        "
+
+msgid "NORMALIZED_CLUSTER"
+msgstr "Normalising by Cluster    "
+
+msgid "NORMALIZED_SELECTED"
+msgstr "Normalising by Selection  "
+
+msgid "DATA_CRUDE"
+msgstr "Raw Data"
+
+msgid "DATA"
+msgstr "Data"
+
+msgid "GENERATE"
+msgstr "Generate"
+
+msgid "SELECT"
+msgstr "Select"
+
+msgid "VISUALIZE"
+msgstr "Visualize"
+
+# ------------------------------- vfigure ----------------------------------
+msgid "PARALLEL_COORDINATES"
+msgstr "Parallel Coordinates    "
+
+msgid "SELECT_A_GRAPHIC"
+msgstr "Select a graphic"
+
+msgid "FIGURE_CONF"
+msgstr "Figures configuration"
+
+msgid "VISUALIZE_DATE_CLUSTER"
+msgstr "Show Data/Clusters Selected"
+
+msgid "NOW_SHOW"
+msgstr "Show"
+
+msgid "PICKER_EXISTING"
+msgstr "Existing"
+
+msgid "PICKER_FILTERED"
+msgstr "Filtered and Sorted"
+
+msgid "BUTTON_ORDER_AND_FILTER"
+msgstr "Sort and Filter"
+
+msgid "BUTTON_HIGHLIGHT"
+msgstr "Explore a solution"
+
+# ------------------------------- vfigured ----------------------------------
+msgid "GRAPHIC_CONFIG"
+msgstr "Graphic Configuration"
+
+msgid "FIGURE"
+msgstr "Figure"
+
+msgid "AXES"
+msgstr "Axes"
+
+msgid "SIZE"
+msgstr "Size"
+
+msgid "FIGURE_WIDTH"
+msgstr "Figure Width"
+
+msgid "FIGURE_HEIGHT"
+msgstr "Figure Heigth"
+
+msgid "SPACING"
+msgstr "Spacing"
+
+msgid "TOP"
+msgstr "Top"
+
+msgid "BOTTOM"
+msgstr "Bottom"
+
+msgid "LEFT"
+msgstr "Left"
+
+msgid "RIGHT"
+msgstr "Right"
+
+msgid "EDGES"
+msgstr "Edges"
+
+msgid "CHOOSE_A_COLOR"
+msgstr "Choose a color"
+
+msgid "LEGEND"
+msgstr "Legend"
+
+msgid "SHOW_LEGEND"
+msgstr "Show Legend"
+
+msgid "LOCATION"
+msgstr "Location"
+
+msgid "SELECT_A_LOCATION"
+msgstr "Select a Location"
+
+msgid "SELECT_COLOR_HIGHLIGHT"
+msgstr "Highlight color"
+
+msgid "GRID"
+msgstr "Grid"
+
+msgid "SHOW_GRID"
+msgstr "Show Grid"
+
+msgid "TYPE"
+msgstr "Type"
+
+msgid "SELECT_TYPE_OF_GRID"
+msgstr "Select type of Grid"
+
+msgid "WIDTH"
+msgstr "Width"
+
+msgid "COLOR"
+msgstr "Color"
+
+msgid "COLOR_ALPHA"
+msgstr "Color Alpha"
+
+msgid "AXES_VALUES"
+msgstr "Axes values"
+
+msgid "IN_X"
+msgstr "In X"
+
+msgid "COLOR_X"
+msgstr "Color X"
+
+msgid "IN_Y"
+msgstr "In Y"
+
+msgid "COLOR_Y"
+msgstr "Color Y"
+
+msgid "LABEL_SIZE_X"
+msgstr "Label size"
+
+msgid "LABEL_STILE_LATEX_X"
+msgstr "Latex style"
+
+msgid "RC_CONF1_HEADER"
+msgstr "Graph Settings"
+
+msgid "RC_CONF1_STYLE_G"
+msgstr "Graph Style"
+
+msgid "RC_CONF1_STYLE_GTS"
+msgstr "Graphics styles to be Shown"
+
+msgid "RC_CONF1_FILL"
+msgstr "Fill Figure"
+
+# ------------------------------- vvisualization -----------------------------
+msgid "CLUSTER_CONFIG"
+msgstr "Cluster Config"
+
+msgid "DISPLAY_MODE"
+msgstr "Display Mode"
+
+msgid "CLUSTERS_AND_SUMMARIES"
+msgstr "Clusters and Summaries"
+
+msgid "SUMMARIES"
+msgstr "Summaries"
+
+msgid "DISPLAY_SELECTED"
+msgstr "Display Selected"
+
+msgid "COLOR_SUMM"
+msgstr "Color for Summary"
+
+msgid "COLOR_SUMM_SUMM"
+msgstr "Color assigned to Summary"
+
+msgid "COLOR_SUMM_CLUS"
+msgstr "Color assigned to Cluster"
+
+msgid "IN_A_FIGURE"
+msgstr "In a Figure"
+
+msgid "IN_DIFFERENT_FIGURES"
+msgstr "In differents Figures"
+
+msgid "LEGEND_CONTENT"
+msgstr "Legend Content"
+
+msgid "PERCENTAGE_OF_OBSERVATIONS"
+msgstr "Percentage of observations"
+
+msgid "AMOUNT_OF_OBSERVATIONS"
+msgstr "Amount of Observations"
+
+msgid "SHAPES"
+msgstr "Shapes"
+
+msgid "ALL_IN_SAME_FIGURE"
+msgstr "All in same Figure"
+
+msgid "ALL_IN_DIFFERENT_FIGURES"
+msgstr "All in different Figures"
+
+msgid "A_FIGURE_FOR_EACH_CLUSTER_AND_SUMMARY"
+msgstr "A figure for each Cluster and Summary"
+
+msgid "CLUSTERS_IN_A_FIGURE_AND_SUMMARIES_IN_ANOTHER"
+msgstr "Clusters in a Figure and Summaries in another"
+
+msgid "SUMMARY"
+msgstr "Summary"
+
+msgid "SHOW_PERCENTAGE_OF_OBSERVATIONS"
+msgstr "Show percentage of observations"
+
+msgid "SHOW_AMOUNT_OF_OBSERVATIONS"
+msgstr "Show amount of observations"
+
+msgid "SHOW_NAME"
+msgstr "Show name"
+
+msgid "SHOW_SHAPES"
+msgstr "Show shapes"
+
+msgid "CLUSTER_FILTER"
+msgstr "Cluster Filter"
+
+msgid "FILTER_CONFIG"
+msgstr "Filter Config"
+
+msgid "REPRESENTATIVITY_IN_QUANTITY"
+msgstr "Representativity in Quantity"
+
+msgid "REPRESENTATIVITY_VALUES_OBJECTIVES"
+msgstr "Representativity values objectives"
+
+msgid "MORE_REPRESENTATIVE_CLUSTER"
+msgstr "More representative Clusters"
+
+msgid "SET_THE_AMOUNT"
+msgstr "Set the amount"
+
+msgid "LESS_REPRESENTATIVE_CLUSTER"
+msgstr "Less representative Cluster"
+
+msgid "HIGHER_VALUES"
+msgstr "Higher values"
+
+msgid "SMALLER_VALUES"
+msgstr "Smaller values"
+
+# ------------------------------- vcontrolm ----------------------------------
+
+#msgid "H_EMPTY_CLUSTER_DATA"
+#msgstr "Display Clusters"
+
+msgid "EMPTY_CLUSTER_DATA"
+msgstr "Cluster generation is required\n\nYou must generate the corresponding groups to watch them:\n1. Select at least one data.\n2. Set number of clusters.\n3. Press button to generate cluster.\n\n            TAVA-TOOL  "
+
+msgid "EMPTY_DATA_SELECTION"
+msgstr "Empty data selection"
+
+msgid "SELECTION_OF_DATA_TO_DISPLAY"
+msgstr "Selection of data to display"
+
+msgid "YOU_HAVE_NOT_SELECTED_ANY_OPTION"
+msgstr "You have not selected any option of"
+
+msgid "H_EMPTY_CLUSTER_DATA"
+msgstr "Empty data selection"
+
+msgid "H_EMPTY_DATA_SELECTED"
+msgstr "Empty data selection"
+
+msgid "EMPTY_DATA_SELECTED"
+msgstr "Data selection to display.\n\nYou have not selected any option for \nDisplay Data, check some of\nthe boxes available in the upper right part\nsuperior derecha (Datas or Clusters).\n\n            TAVA-TOOL  "
+
+msgid "H_EMPTY_CLUSTER_SELECTED"
+msgstr "Display Cluster"
+
+msgid "EMPTY_CLUSTER_SELECTED"
+msgstr "Cluster selection is required\n\nYou must select at least one cluster to be \ndisplayed:\n1. Select at least one cluster.\n2. Retry display.\n\n            TAVA-TOOL  "
+
+msgid "H_EMPTY_DATA_GENERATE_CLUSTER"
+msgstr "Generating Clusters"
+
+msgid "EMPTY_EMPTY_DATA_GENERATE_CLUSTER"
+msgstr "Contains No Data\n\nIt has no data to be grouped. The list\nof data found in the upper right corner\nis empty. Add data to View.\n\n            TAVA-TOOL  "
+
+msgid "H_GENERATE_CLUSTER"
+msgstr "Generating Clusters"
+
+msgid "EMPTY_GENERATE_CLUSTER"
+msgstr "Cluster selection is required\n\nYou must select at least one cluster to be \ngrouped. The list of data found in\nthe upper right corner:\n1. Select at least one data.\n2. Set number of clusters.\n3. Retry group.\n\n            TAVA-TOOL  "
+
+msgid "H_EMPTY_NUMBER_KMEANS"
+msgstr "Kmeans Clusters"
+
+msgid "EMPTY_NUMBER_KMEANS"
+msgstr "Clusters amount unspecified\n\nThe minimum amount of clusters for Kmeans\n is one. Specify the number and then try\nagain.\n\n            TAVA-TOOL  "
+
+msgid "H_INVALID_NUM_CLUSTERS"
+msgstr "Cluster Generation"
+
+msgid "INVALID_NUM_CLUSTERS"
+msgstr "Cluster greater number of the population\n\nThe number of clusters requested exceeds the\nnumber of individuals in the population.\nReduce the number and try again.\n\n           TAVA-TOOL  "
+
+msgid "COLOR_CLUSTER"
+msgstr "Color Cluster"
+
+msgid "COLOR_SUMMARY"
+msgstr "Color SUMMARY"
+
+msgid "CHANGE_COLOR_CLUSTER"
+msgstr "Change color Cluster"
+
+msgid "CHANGE_COLOR_SUMMARY"
+msgstr "Change color Summary"
+
+msgid "UNIFY_COLOR_CLUSTER"
+msgstr "Unify the Colors of Clusters"
+
+msgid "UNIFY_COLOR_SUMMARY"
+msgstr "Unify the Colors of Summary"
+
+msgid "CHANGE_GROUP_NAME"
+msgstr "Change name"
+
+msgid "CHANGE_GROUP_NAME_T"
+msgstr "Group name"
+
+msgid "CHANGE_GROUP_NAME_D"
+msgstr "Must have at least one character"
+
+
+msgid "INDI_BY_CLUSTER"
+msgstr "Individuals Number of Clusters"
+
+msgid "PORCEN_BY_CLUSTER"
+msgstr "Percentage of Individuals with regard to the Population"
+
+msgid "NAME_TOLL_TIP"
+msgstr "Name assigned to Cluster"
